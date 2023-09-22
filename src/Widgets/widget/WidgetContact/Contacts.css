@@ -1,0 +1,23 @@
+.contacts{
+    
+}
+
+.contacts-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.contacts-head > div > h5{
+    font-size: 13px;
+    color: #767679;
+}
+.button .MuiSvgIcon-root{
+    margin: 5px;
+    padding: 0px 4px;
+    border-radius: 10px;
+    
+}
+.button .MuiSvgIcon-root:hover{
+    background-color: #E4E6E9;
+}

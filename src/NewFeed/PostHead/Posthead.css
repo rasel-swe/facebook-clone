@@ -1,0 +1,84 @@
+/* Posthead.css */
+
+.posthead-container {
+    margin-top: 30px;
+    margin-left: 17px;
+    padding: 0px 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 5px 8px -9px rgb(0, 0, 0.75);
+    border-radius: 10px;
+  }
+  
+  .posthead-top {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px 0px;
+    border-bottom: 1px solid #d8dadf;
+  }
+  
+  .posthead-top > form > input {
+    background-color: #f0f2f5;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    outline: none;
+    font-size: small;
+    cursor: pointer;
+  }
+  
+  .posthead-top > form > .input-1 {
+    width: 240px;
+    margin-right: 3px;
+  }
+  
+  .posthead-top > form > button {
+    display: none;
+  }
+  
+  .posthead-top > form > input:hover {
+    background-color: #d8dadf;
+    outline: none;
+  }
+  
+  .posthead-bottom {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .posthead-bottom > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 7px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #606266;
+  }
+  
+  .posthead-bottom > div:hover {
+    background-color: #d8dadf;
+  }
+  
+  .posthead-bottom > .div-1 .MuiSvgIcon-root {
+    color: #e42645;
+    font-weight: bold;
+  }
+  
+  .posthead-bottom > .div-2 .MuiSvgIcon-root {
+    color: #41b35d;
+    font-weight: bold;
+  }
+  
+  .posthead-bottom > .div-3 .MuiSvgIcon-root {
+    color: red;
+    font-weight: #eab026;
+  }
+  

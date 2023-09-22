@@ -1,0 +1,21 @@
+.SlidebarRaw {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.SlidebarRaw:hover {
+  background-color: #e2e3e6;
+}
+.SlidebarRaw > .MuiSvgIcon-root {
+  color: #2e81f4;
+  font-size: 24px;
+}
+
+.SlidebarRaw > p {
+  padding: 0px 8px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #050505;
+}

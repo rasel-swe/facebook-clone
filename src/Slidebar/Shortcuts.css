@@ -1,0 +1,17 @@
+.groups {
+  padding: 10px 0px;
+}
+.headName {
+  border-top: 1px solid #ced0d4;
+  padding: 10px;
+  font-size: 13px;
+  color: #767679;
+}
+
+.groups a {
+  font-size: 10px;
+  text-decoration: none;
+}
+.groups a:hover {
+    text-decoration: underline;
+}

@@ -1,2 +1,8 @@
-# facebook-clone
-The React.js Facebook Clone is a desktop web app mimicking Facebook's core functionality. It employs React and Redux for only desktop experience, post updates, and more. Backend operations, including user data and posts, are managed by Firebase, ensuring real-time data access and security.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

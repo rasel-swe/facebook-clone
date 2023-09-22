@@ -1,0 +1,33 @@
+/* Contact.css */
+.contact {
+    
+    display: flex;
+    position: relative;
+  }
+  
+  .content-list {
+    display: flex;
+    align-items: center;
+    padding: 7px 0px;
+    gap: 8px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .content-list:hover{
+    background-color: #E4E6E9;
+    cursor: pointer;
+  }
+  .active-dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 27px;
+    left: 21px;
+    border: 1.5px solid white;
+    background-color: #2f9a48; /* Change the color as desired */
+    border-radius: 50%;
+  }
+  
+ 
+  
